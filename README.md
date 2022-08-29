@@ -28,3 +28,5 @@
             "endPageNo": 5,
             "currentPage": 1
         },</code></pre>
+
+-API문서 링크:  <https://docs.google.com/spreadsheets/d/1mH41nVW9b_lqB8PukCk8lFx7TU8gctJpzwcdpbzELIk/edit?usp=sharing>
