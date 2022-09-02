@@ -12,11 +12,11 @@
    - QnA 답변 등록
    (qna/modify) put method 
   - 페이지네이션 
-  사용 예시
+ -   사용 예시
    <pre><code>    int skip = (currentPage - 1) * pagesize;
             int take = pagesize;
             int totalCount = GetGoodsTotalCount(goodsid);</code></pre>
-  4. 출력 내용 예시
+  -  출력 내용 예시
     <pre><code>"data": {
         "pagination": {
             "totalCount": 9,
