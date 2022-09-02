@@ -12,10 +12,7 @@
    - QnA 답변 등록
    (qna/modify) put method 
   - 페이지네이션 
-   1. 총 페이지 갯수(pagesize), 현재 페이지(currentPage)를 통해서 마지막 페이지 넘버(endPaageNo)를 구함.
-   2. 변수명
-   전체 페이지:totalCount, 요청 페이지 수(currentPage), 시작 페이지(startPageNo)
-   3. 사용 예시
+  사용 예시
    <pre><code>    int skip = (currentPage - 1) * pagesize;
             int take = pagesize;
             int totalCount = GetGoodsTotalCount(goodsid);</code></pre>
